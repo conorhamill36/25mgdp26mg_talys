@@ -1,0 +1,27 @@
+#
+# General
+#
+projectile d
+element mg
+mass 25
+energy 13.
+#
+# Output
+#
+maxlevelsbin p    40    nlevbin
+ejectiles p    outtype
+localomp            n    flaglocalomp
+outdiscrete         y
+angles             90     nangle
+outangle            y     
+outdirect           y     flagdirect
+components          y     flagcompo
+optmodall           y     flagompall
+#Compound Nucleus
+#flag for compound angular distribution calculation for incident charged particles
+cpang               y     flagcpang
+fullhf              y     flagfullhf
+eciscompound        y     flageciscomp
+outdirect           n     flagdirect
+urrnjoy             y     flagurrnjoy
+filespectrum p
